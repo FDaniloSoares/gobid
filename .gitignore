@@ -26,4 +26,7 @@ go.work.sum
 .env
 .env.example
 
+# Makefile
+Makefile
+
 bin/
