@@ -67,7 +67,7 @@ func main() {
 
 	port := os.Getenv("GOBID_APP_PORT")
 	if port == "" {
-		port = "8080"
+		port = "3000"
 	}
 
 	fmt.Printf("Starting Server on port :%s\n", port)

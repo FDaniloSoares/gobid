@@ -1,0 +1,22 @@
+{
+  "AuthenticationConfiguration": {
+    "AccessRoleArn": "youraccessrolearn"
+  },
+  "ImageRepository": {
+    "ImageIdentifier": "imagem-from-ecr",
+    "ImageRepositoryType": "ECR",
+    "ImageConfiguration": {
+      "Port": "3000",
+      "RuntimeEnvironmentVariables": {
+        "GOBID_APP_PORT": "3000",
+        "GOBID_DATABASE_PORT": "-",
+        "GOBID_DATABASE_NAME": "-",
+        "GOBID_DATABASE_USER": "-",
+        "GOBID_DATABASE_PASSWORD": "-",
+        "GOBID_DATABASE_HOST": "host-from-aws-ecr",
+        "GOBID_CSRF_KEY": "csrf-key"
+      }
+    }
+  },
+  "AutoDeploymentsEnabled": false  
+}
